@@ -14826,7 +14826,7 @@ screen and (max-width:736px) and (orientation:landscape) {
 }
 .fitems
 {
-    background-color: red;
+    
     border:2px solid black;
     margin: 12px;
     width: 258px;
