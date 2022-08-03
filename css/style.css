@@ -409,7 +409,7 @@ body {
 .relative {
     position: relative;
 }
-
+ 
 
 /* contact us css */
 
@@ -14820,4 +14820,15 @@ screen and (max-width:736px) and (orientation:landscape) {
 
 .form-placeholder::placeholder {
     color: #ffffff;
+}
+.fcontainer{
+    display: flex;
+}
+.fitems
+{
+    background-color: red;
+    border:2px solid black;
+    margin: 12px;
+    width: 258px;
+    height: 173px;
 }
