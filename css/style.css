@@ -10054,6 +10054,15 @@ h2.portfolio-timeline-title {
         padding: 1.6em;
         width: 45%;
     }
+    .cd-c{
+        margin-left: 329px;
+        padding: 1.6em;
+        width: 45%;
+        position: relative;
+     
+           background: #f3f3f3;
+            padding: 20px;
+    }
     .cd-timeline-content::before {
         top: 24px;
         left: 100%;
