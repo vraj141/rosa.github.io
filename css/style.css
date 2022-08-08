@@ -1689,6 +1689,10 @@ video {
 }
 
 .p-80-cont {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.p-800-cont {
     padding-top: -12px;
     padding-bottom: 80px;
 }
