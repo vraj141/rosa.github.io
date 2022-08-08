@@ -1689,7 +1689,7 @@ video {
 }
 
 .p-80-cont {
-    padding-top: 80px;
+    padding-top: -12px;
     padding-bottom: 80px;
 }
 
@@ -8262,7 +8262,7 @@ a:focus {
 }
 
 .pb-50 {
-    padding-bottom: 50px;
+    padding-bottom: -12px;
 }
 
 .pb-55 {
