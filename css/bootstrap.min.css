@@ -2559,6 +2559,9 @@ pre code {
     .col-md-7 {
         width: 58.33333333%
     }
+    .col-md-777 {
+        width: 100.33333333%
+    }
     .col-md-13{
         width:108.%;
     }
