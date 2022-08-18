@@ -14601,50 +14601,45 @@ screen and (max-width:736px) and (orientation:landscape) {
    
   }
 .fshape1{
-     background-color:  powderblue
-    ;
+    
     position: relative;
   top: 90px;
   height: 570px;
 }
 .fshape2{
-    background-color:  powderblue
-   ;
+    
+    
    position: relative;
  top: 90px;
  height: 1070px;
 }
 .fshape3{
-    background-color:  powderblue
-   ;
+   
    position: relative;
  top: 90px;
  height: 1070px;
 }
 .fshape4{
-    background-color:  powderblue
-   ;
+   
    position: relative;
  top: 90px;
  height: 1070px;
 }
 .fshape5{
-    background-color:  powderblue
-   ;
+   
    position: relative;
  top: 90px;
  height: 1070px;
 }
 .fshape7{
-    background-color:  powderblue
-   ;
+   
    position: relative;
  top: 90px;
  height: 1070px;
 }
 .fcontainer1{
     display: flex;
-    
+     
     align-items: center;
     justify-content: center;
 }
@@ -14658,7 +14653,12 @@ screen and (max-width:736px) and (orientation:landscape) {
 }
 #diff{
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+    position: relative;
+    margin-left: -565px;
 
+}
+.tb{
+    position: relative;
+    /* border:2px solid black; */
+    top: 145px;
 }
