@@ -14662,3 +14662,184 @@ screen and (max-width:736px) and (orientation:landscape) {
     /* border:2px solid black; */
     top: 145px;
 }
+
+
+
+
+
+.mcontainer{
+    position: relative;
+    left: 160px;
+    height: 323px;
+    top: 100px;
+    width: 600px;
+
+}
+.stcontainer{
+border: 2px solid;
+background-color:#e9e9e9;
+border-color: black;
+display: grid;
+height: 570px;
+width: 528px;
+justify-content: center;
+align-items: center;
+
+ 
+}
+.container1{
+    display: flex;
+    border: 2px solid;
+    color: #000;
+    border-color: black;
+    display: grid;
+    height: 570px;
+    width: 575px;
+    justify-content: center;
+    align-items: center;
+    right: -600px;
+    top: -570px;
+    position: relative;
+    align-items: center;
+     
+    }
+ 
+.sttitle{
+    display: grid;
+    
+    width: 438px;
+    height: 45px;
+   justify-content: center;
+   position: relative;
+   top: -15px;
+    font-weight:bolder;
+}
+ .stform{
+    
+    width: 438px;
+    height: 365px;
+position: relative;
+top: -87px;
+}
+
+.fname{
+    display: grid;
+    width: 195px;
+    height: 55px;
+  
+}
+.lname{
+    display: grid;
+    position: relative;
+    width: 195px;
+    height: 55px;
+    top: -56px;
+    right: -235px;
+
+     ;
+}
+ 
+.em{
+    position: relative ;
+    top: -87px;
+
+}
+.emailk{
+    display: grid;
+    position: relative;
+    width: 195px;
+    height: 55px;
+    
+    top: 50px;
+}
+.mnumber{
+    display: grid;
+    position: relative;
+    width: 195px;
+    height: 55px;
+    top: -6px;
+    right: -235px;
+
+  
+}
+.sbt{
+    width: 432px;
+    height: 50px;
+    position: relative;
+    top: -75px;
+ 
+}
+.msg{
+    width: 432px;
+    height: 100px;
+    position: relative;
+    top: -55px;
+   
+}
+.smt{
+    width: 432px;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+.fitem1{
+    position: relative;
+    right: 134px;
+    top: -126px;
+
+    
+    
+   
+  
+    width: 250px;
+    height: 150px;
+    }
+.fitem2{
+    position: relative;
+    right: -250px;
+       
+        
+        
+        
+        width: 250px;
+        height: 150px;
+        top: -280px;
+    right: -131px;
+        }
+.ct{
+    display: grid;
+    position: relative;
+    top: 157px;
+}.ct1{
+    display: grid;
+    position: relative;
+    top: 6px;
+}
+.ct2{
+    display: grid;
+    position: relative;
+    top: -126px;
+}
+.ct3{
+    
+    display: grid;
+    position: relative;
+    top: -169px;
+}
+.ct4{
+    display: grid;
+    position: relative;
+    top: -783px;
+}
+.mpap{
+    position: relative;
+    width: 400pxpx;
+    height: 150px;
+    background-color:pink;
+    top: -545px;
+}
+#sc{
+font-size: 16px;
+font-weight: bold;
+}
+ 
