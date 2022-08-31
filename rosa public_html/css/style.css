@@ -14669,7 +14669,7 @@ screen and (max-width:736px) and (orientation:landscape) {
 
 .mcontainer{
     position: relative;
-    left: 160px;
+    left: 126px;
     height: 323px;
     top: 100px;
     width: 600px;
@@ -14842,4 +14842,36 @@ top: -87px;
 font-size: 16px;
 font-weight: bold;
 }
+
+.plcontainer{
+    border: 2px solid;
+background-color: blue;
+border-color: black;
+display: flex;
+height: 650px;
+width: 1400px;
+top: 87px;
+position: relative;
  
+}
+.plrow1{
+    border: 2px solid;
+    background-color: green;
+    border-color: black;
+    display: flex;
+    height: 650px;
+    width: 1134px;
+  position: relative;
+  right: -100px;
+
+}
+.plrow1col1{
+    border: 2px solid;
+    background-color: yellow;
+    border-color: black;
+    display: flex;
+    height: 650px;
+    width: 525px;
+  position: relative;
+  right: -100px;
+}
