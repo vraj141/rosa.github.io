@@ -535,7 +535,7 @@ body {
 }
 
 .affix .cd-header-buttons {
-    top: 10px;
+    
     color: #8b8c8e;
     -webkit-transition: top .4s ease 0s;
     -o-transition: top .4s ease 0s;
@@ -570,6 +570,7 @@ body {
     /* hide text */
     color: transparent;
     z-index: 3;
+    top: -6px;
 }
 
 .cd-search-trigger::before,
@@ -2092,12 +2093,13 @@ table.shopping-cart-table tr td {
 =====================================================*/
 
 .shop-add-btn-cont {
-    margin-right: 65px;
+    margin-right: 75px;
 }
 
 .shop-sub-btn-cont {
     margin-top: -33px;
     float: right;
+  
 }
 
 .shop-sub-btn-cont .post-prev-count {
@@ -4268,7 +4270,7 @@ select.input-border {
 }
 
 #main-menu .sub a {
-    color: #d3d3d3;
+    color: black;
     display: block;
     text-decoration: none;
     min-width: 160px;
@@ -4281,7 +4283,7 @@ select.input-border {
 }
 
 #main-menu .sub a:hover {
-    color: #fff;
+    color:blue;
     padding-left: 7px;
     -webkit-transition: color .2s ease 0s, padding .3s ease 0s;
     -o-transition: color .2s ease 0s, padding .3s ease 0s;
@@ -4702,12 +4704,12 @@ nav ul {
 .header-wrapper {
     position: relative;
     width: 100%;
-    -webkit-transition: height .3s ease 0s, background .3s ease 0s;
+    /* -webkit-transition: height .3s ease 0s, background .3s ease 0s;
     -o-transition: height .3s ease 0s, background .3s ease 0s;
     transition: height .3s ease 0s, background .3s ease 0s;
     -webkit-transform: translateZ(0);
     -ms-transform: translateZ(0);
-    transform: translateZ(0);
+    transform: translateZ(0); */
     z-index: 29;
 }
 
@@ -4724,19 +4726,19 @@ nav ul {
     top: 0;
     left: 0;
     z-index: 100;
-    background: #fff;
+    background: none;
     -webkit-transition: height .3s ease 0s, background .3s ease 0s;
     -o-transition: height .3s ease 0s, background .3s ease 0s;
     transition: height .3s ease 0s, background .3s ease 0s;
     -webkit-transform: translateZ(0);
     -ms-transform: translateZ(0);
     transform: translateZ(0);
-    -webkit-box-shadow: 0 1px 15px rgba(0, 0, 0, .15);
+    -webkit-box-shadow:none;
     box-shadow: 0 1px 15px rgba(0, 0, 0, .15);
 }
 
 .affix.black-header .header-wrapper {
-    background: #303236;
+    background: none;
 }
 
 #nav-below.header {
@@ -4784,9 +4786,7 @@ nav ul {
 .logo-container {
     width: 120px;
     background-color: #414146;
-    -webkit-transition: all .3s ease 0s;
-    -o-transition: all .3s ease 0s;
-    transition: all .3s ease 0s;
+  
 }
 
 
@@ -4799,9 +4799,7 @@ header .logo {
     padding-bottom: 15px;
     padding-left: 45px;
     padding-top: 81px;
-    -webkit-transition: all .4s ease 0s;
-    -o-transition: all .4s ease 0s;
-    transition: all .4s ease 0s;
+     
 }
 
 footer .logo {
@@ -4818,18 +4816,14 @@ footer .logo {
 header.affix .logo {
     padding-top: 20px;
     padding-bottom: 16px;
-    -webkit-transition: all .4s ease 0s;
-    -o-transition: all .4s ease 0s;
-    transition: all .4s ease 0s;
+    
 }
 
 header.affix .logo-2,
 .header.affix.no-transparent .logo-2 {
-    padding-top: 9px;
-    padding-bottom: 9px;
-    -webkit-transition: all .4s ease 0s;
-    -o-transition: all .4s ease 0s;
-    transition: all .4s ease 0s;
+    
+    padding-bottom: 0px;
+   
 }
 
 .logo-img {
@@ -7397,7 +7391,7 @@ button {
 }
 
 .button.gray-light:hover {
-    background-color: #4b4e53;
+    background-color: #e53e7c;
     color: #fff;
     cursor: pointer;
 }
@@ -12288,7 +12282,7 @@ screen and (max-height: 300px) {
     #header-left #main-menu .sub,
     #header-left #main-menu .parent .sub,
     #header-left #main-menu .parent:hover .sub {
-        background: #3e4045;
+        background: none;
     }
     #header-left #main-menu .parent .sub .sub,
     #header-left #main-menu .parent:hover .sub .sub {
@@ -14518,7 +14512,7 @@ screen and (max-width:736px) and (orientation:landscape) {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 5%;
+    padding: -1px 5%;
   
     position: relative;
   }
@@ -14874,4 +14868,9 @@ position: relative;
     width: 525px;
   position: relative;
   right: -100px;
+}
+ 
+.fas fa-caret-right{
+    position: relative;
+     top:5px ;
 }
