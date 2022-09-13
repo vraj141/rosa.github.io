@@ -1276,6 +1276,7 @@ video {
     position: relative;
     width: 133px;
     z-index: 1;
+    top:-10px;
 }
 
 .header-transporent-bg-black {
@@ -7382,7 +7383,7 @@ button {
 }
 
 .button.gray:hover {
-    background-color: #101010;
+    background-color:  #e53e7c;
 }
 
 .button.gray-light {
@@ -14640,7 +14641,7 @@ screen and (max-width:736px) and (orientation:landscape) {
 .fitems
 {
     
-    border:2px solid black;
+    /* border:2px solid black; */
     margin: 12px;
     width: 258px;
     height: 173px;
@@ -14873,4 +14874,9 @@ position: relative;
 .fas fa-caret-right{
     position: relative;
      top:5px ;
+}
+
+
+#main-menu .sub #faucet1 a{
+    color: #0C0;
 }
