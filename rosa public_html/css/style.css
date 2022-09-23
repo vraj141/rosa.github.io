@@ -2919,15 +2919,20 @@ table.shopping-cart-table tr td {
 }
 
 .post-prev-img img {
-    width: 100%;
+    width: 300px; 
+    height: 195px;
+
 }
 
 .post-prev-title h3 {
     margin: 0;
+    position: relative;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 11.75px;
     line-height: 26px;
     font-weight: 600;
+    width: 40vh;
+    height: 9vh;
 }
 
 .blog-main-posts .post-prev-img {
@@ -7507,6 +7512,7 @@ a:hover {
 
 .a-inv {
     color: #7e8082;
+    text-transform: uppercase;
 }
 
 .a-inv:hover {
@@ -14646,6 +14652,7 @@ screen and (max-width:736px) and (orientation:landscape) {
     width: 258px;
     height: 173px;
 }
+ 
 #diff{
     display: flex;
     position: relative;
@@ -14906,7 +14913,7 @@ position: relative;
     
     .flip-box {
         background-color: transparent;
-        width: 280px;
+        width: 380px;
         height: 335px;
         border: 1px solid #f1f1f1;
         perspective: 1000px;
@@ -14939,23 +14946,29 @@ position: relative;
       }
       
       .flip-box-back {
-        background-color: dodgerblue;
+        background-color: #E75480;
         color: white;
         transform: rotateX(180deg);
       }
     
       .zoom {
     
-        background-color: green;
+       
         transition: transform .2s;
-        width: 200px;
-        height: 200px;
+        width: 300px;
+        height: 150px;
         margin: 0 auto;
       }
       
       .zoom:hover {
-        -ms-transform: scale(1.5); /* IE 9 */
-        -webkit-transform: scale(1.5); /* Safari 3-8 */
-        transform: scale(1.5); 
+        -ms-transform: scale(1); /* IE 9 */
+        -webkit-transform: scale(1); /* Safari 3-8 */
+        transform: scale(1.25); 
       }
       
+     .tb{
+        width: 292px;
+     }
+    .lightbox-item{
+        width: 300px;
+    }
