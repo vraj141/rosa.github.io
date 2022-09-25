@@ -14948,8 +14948,9 @@ position: relative;
       
       .flip-box-back {
         background-color:#f34183;;
-        color: whitesmoke;
+        color: red;
         transform: rotateX(180deg);
+        
       
       }
     
